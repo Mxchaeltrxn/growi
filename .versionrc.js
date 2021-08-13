@@ -2,6 +2,7 @@
 module.exports = {
   preset: require.resolve('conventional-changelog-conventionalcommits'),
   infile: 'CHANGES.md',
+  header: '# CHANGES',
   types: [
     { type: 'feat', section: 'Features' },
     { type: 'fix', section: 'Bug Fixes' },
